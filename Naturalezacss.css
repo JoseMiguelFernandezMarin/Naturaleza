@@ -1,0 +1,57 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+
+    margin-left: 70%;
+}
+
+li {
+    text-decoration: none;
+    padding: 1em, 1.5px;
+    text-align: center;
+    list-style: none; 
+    display: inline-block;
+    width: 115px;
+    color: seashell;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    margin-right: 7px;
+
+}
+
+div {
+    color: seashell;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    text-align: center;
+    height: 150px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+img {
+    margin-left: 10px;
+    filter: grayscale(1);
+}
+
+.iconos {
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    margin-right: 10px;
+}
+
+#icono {
+    position: fixed;
+    top: 85%;
+    height: 80px;
+    width: 80px;
+}
